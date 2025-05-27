@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	font-family:"PoppinsVN","Roboto",Arial,sans-serif;
+}
+
+#Heading {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+#Heading .Menu li{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+
+}
+
+#Heading .main-menu{
+	text-decoration: none;
+	display: block;
+	color: black;
+	padding: 12px 20px;
+	font-size: 14px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 32px;
+	margin-left: -18px;
+}
+
+#Heading .main-menu:hover{
+	color: #5dc2a7;
+}
+
+#Heading .icon-header{
+	float: left;
+	width: 330px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#Heading .icon-header img{
+	width: auto;
+    height: auto;
+    max-height: 52px;
+}
+
+#Heading .sub-menu{
+	position: absolute;
+	width: 300px;
+	background-color: white;
+	padding-left: 50px;
+	margin-left: -50px;
+	display: none;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+#Heading .Menu li:hover .sub-menu{
+	display: block;
+}
+
+#Heading .course{
+	border-bottom: dashed 1px #5dc2a7;
+	width: 300px;
+	padding-left: 50px;
+	margin-left: -50px;
+}
+
+#Heading .course a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+#Heading .course:hover{
+	background-color: #5dc2a7;
+	color: black;	
+}
+
+#Header-image{
+	height: 1000px;
+	margin-top: 26px;
+}
